@@ -1,0 +1,123 @@
+.hero {
+  text-align: center;
+  font-family: "Nunito sans", sans-serif;
+  margin-top: 4rem;
+  line-height: 5rem;
+}
+.hero h6 {
+  font-size: 1rem;
+}
+.hero h1 {
+  font-size: 3rem;
+  background: linear-gradient(
+    to right,
+    #7953cd 20%,
+    #00affa 30%,
+    #0190cd 70%,
+    #764ada 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 3s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.hero p {
+  font-size: 1rem;
+}
+.hire-btn {
+  padding: 10px 20px;
+  margin-top: 3rem;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.hire-btn {
+  background: rgb(0, 140, 255);
+  box-shadow: 0 0 25px rgb(0, 140, 255);
+}
+
+.hire-btn:hover {
+  box-shadow: 0 0 5px rgb(0, 140, 255), 0 0 25px rgb(0, 140, 255),
+    0 0 50px rgb(0, 140, 255), 0 0 100px rgb(0, 140, 255);
+}
+
+@media (min-width: 475px) {
+}
+@media (min-width: 640px) {
+}
+@media (min-width: 768px) {
+  .hero {
+    text-align: center;
+    font-family: "Nunito sans", sans-serif;
+    font-weight: bolder;
+    margin-top: 4rem;
+    line-height: 7rem;
+  }
+
+  .hero h6 {
+    font-size: 1rem;
+  }
+  .hero h1 {
+    font-size: 7rem;
+    background: linear-gradient(
+      to right,
+      #7953cd 20%,
+      #00affa 30%,
+      #0190cd 70%,
+      #764ada 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 3s ease-in-out infinite alternate;
+  }
+  @keyframes textShine {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  .hero p {
+    font-size: 2rem;
+  }
+  .hire-btn {
+    padding: 10px 20px;
+    margin-top: 2rem;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1536px) {
+}
