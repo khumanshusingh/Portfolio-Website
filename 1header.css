@@ -9,6 +9,7 @@
 
 .resume-button {
   display: none;
+  margin-right: 2rem;
 }
 .header_logo {
   color: aliceblue;
@@ -16,6 +17,8 @@
   font-family: "Shadows Into Light", cursive;
   font-size: 2rem;
   display: block;
+  margin-left: 2rem;
+
   margin-top: 1rem;
 }
 .header_logo:hover {
